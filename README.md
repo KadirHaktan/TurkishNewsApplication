@@ -1,27 +1,21 @@
-# StartUpSample
+ Basic Turkish News Web Application
+#
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.
+####  Tech Stacks
+# 
+* Angular11
+* NewsAPI(https://newsapi.org/)
+* Bootstrap
 
-## Development server
+#
+#### Tech Detail Stacks
+#
+* HttpClient for send requests to NewsAPI
+* Observable(RxJs) for subscribes to Model or values and next thing is watch the subscriber or i should say models or values
+#
+Components
+* Navbar is actually fundamental component.Because Navbar actually have router links and router links directs to other components
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* News,Business-News,Tech-News and Sport-News are actually have article's infos
+#
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

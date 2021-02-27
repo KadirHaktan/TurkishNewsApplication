@@ -1,0 +1,13 @@
+
+<div class="container-fluid mt-5">
+  <div class="row">
+    <div class="col-lg-3"  style="width: 18rem;" *ngFor="let article of articles">
+      <div class="box">
+      <img src="{{article.urlToImage}}" width="100%" class="card-img-top" alt="...">
+        <h5 class="card-title">{{article.title}}</h5>
+        <p class="card-text">{{article.content}}</p>
+        <a href="{{article.url}}" target="_blank" class="btn btn-dark btn-sm mt-2">Habere Git...</a>
+    </div>
+    </div>
+  </div>
+</div>

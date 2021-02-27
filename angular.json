@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "start-up-sample"
+  "defaultProject": "start-up-sample",
+  "cli": {
+    "analytics": "2e9847ad-bffa-4283-9de0-ae4b86e60bea"
+  }
 }
