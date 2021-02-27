@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class NewsService {
 
-  private API_KEY:string="apiKey=a0257538249c4e71a9622fa82bab68f0"
+  private API_KEY:string=""
   private base_url:string="https://newsapi.org/v2/top-headlines?country=tr&"
   private technologyCategory:string="category=technology&"
   private businessCategory:string="category=business&"
