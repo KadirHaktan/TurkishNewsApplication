@@ -10,7 +10,7 @@ import { NewsService } from '../services/news/news.service';
 })
 export class TechNewsComponent implements OnInit {
 
-  constructor(public _service:NewsService) { }
+  constructor(private _service:NewsService) { }
 
   articles!:ArticleDetail[]
 
