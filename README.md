@@ -19,3 +19,11 @@ Components
 * News,Business-News,Tech-News and Sport-News are actually have article's infos
 #
 
+ScreenShouts from Application
+
+<img src="https://raw.githubusercontent.com/KadirHaktan/TurkishNewsApplication/master/src/assets/uygulama%20g%C3%B6r%C3%BCnt%C3%BC1.PNG">
+
+<br></br>
+<img src="https://raw.githubusercontent.com/KadirHaktan/TurkishNewsApplication/master/src/assets/goruntu2.PNG">
+
+#
