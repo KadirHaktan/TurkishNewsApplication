@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NewsCategories } from '../enums/news-categories';
 import { ArticleDetail } from '../models/article-detail';
 import { NewsService } from '../services/news/news.service';
 
@@ -11,16 +12,15 @@ export class BusinessNewsComponent implements OnInit {
 
   constructor(private _service:NewsService) { }
 
-  ngOnInit(): void {
-    this.getTurkishBusinessNews()
-  }
-
   articles!:ArticleDetail[]
 
-  getTurkishBusinessNews(){
-    this._service.getTurkishBusinessNews().subscribe(result=>{
+  ngOnInit(): void {
+    this._service.getTurkishNews(NewsCategories.business).subscribe((result)=>{
       this.articles=result.articles
     })
   }
+
+
+
 
 }
